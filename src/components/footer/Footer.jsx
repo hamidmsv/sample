@@ -4,7 +4,7 @@ function Footer(props) {
   return (
     <footer className="specialist-section d-flex flex-column justify-content-around align-items-center mt-5 pt-5 px-5 w-100">
       <div className="d-flex flex-row justify-content-around">
-        <div className="d-flex flex-column justify-content-start">
+        <div className="footer-about d-flex flex-column justify-content-start">
           <div className="logo d-flex flex-row align-items-center my-2">
             <span
               style={{

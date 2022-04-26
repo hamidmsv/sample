@@ -1,0 +1,143 @@
+.why-choose-us-left, .why-choose-us-right{
+    width: 47%;
+}
+
+$dot-color: #E9E9E9;
+$dot-size: 3px;
+$dot-space: 22px;
+$bg-color: white;
+.quick-transfer{
+    position: relative;
+    height: 100%;
+}
+.quick-transfer-dots{
+position: absolute;
+width: 150px;
+height: 150px;
+left: 0;
+top: 0;
+background:
+linear-gradient(90deg, $bg-color ($dot-space - $dot-size), transparent 1%) center,
+linear-gradient($bg-color ($dot-space - $dot-size), transparent 1%) center,
+$dot-color;
+background-size: $dot-space $dot-space;
+}
+
+.quick-transfer-circle-top{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    background-color: #FF7F5C;
+    border-top-right-radius: 100%;
+}
+.quick-transfer-circle-bottom{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    background-color: #E8F2FF;
+    border-bottom-left-radius: 100%;
+    z-index: -1;
+}
+
+.quick-transfer-content{
+    width: 80%;
+    
+    background-color: white;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    background-color: white;
+    box-shadow: -11px 120px 171px 11px #e5e5e5;
+    top: 40px;
+}
+.quick-transfer-content-bb{
+    position: absolute;
+    bottom: -25px;
+    right: -25px;
+    width: 50px;
+    height: 50px;
+    background-color:#F7F7F7;
+    border-left: 1px solid #E9E9E9;
+    transform: rotate(45deg);
+}
+
+.amount {
+    width:90%; 
+    background-color: #E8F2FF; 
+    height: 40px;
+    position: relative;
+  }
+  
+  .amount-percentage {
+     position: absolute;
+     right: 0;
+    height: 40px;
+    width: 30%; 
+    background-color: #00E1F0;
+  }
+  .quick-transfer-zigzag-1{
+      position: absolute;
+      right: 0;
+      bottom: 40px;
+      direction: rtl;
+      text-align: left;
+  }
+
+  .quick-transfer-zigzag-2{
+    position: absolute;
+    left: 0;
+    bottom: 230px;
+}
+.wallet-overview{
+    position: absolute;
+    bottom: 0;
+    width: 90%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    height: 140px;
+}
+.wallet-overview .deposits{
+    position: absolute;
+
+    width: 220px;
+    background-color: white;
+    padding: 15px;
+    left: 0px;
+    top: 15px;
+}
+
+.wallet-overview .expenses{
+    position: absolute;
+    width: 220px;
+    background-color: white;
+    padding: 15px;
+    right: 40px;
+    top: 15px;
+}
+
+.deposits-amount {
+    width:100%; 
+    background-color: #E8F2FF;
+  }
+  
+  .deposits-percentage {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #FDBC64;
+  }
+  .expenses-amount {
+    width:100%; 
+    background-color: #E8F2FF;
+  }
+  
+  .expenses-percentage {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #3734A9;
+  }

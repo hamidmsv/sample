@@ -1,0 +1,56 @@
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+ // Css Reset: 
+ 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+.divider{
+  display: block;
+  width: 100%;
+  border: 1px solid #E6E6E6;
+}
+button{
+  border: none !important;
+}
+@import url('./components/navbar/NavBar.scss');
+@import url('./components/header/header.scss');
+@import url('./components/businesses/businesses.scss');
+@import url('./components/whyFinancy/WhyFinancy.scss');
+@import url('./components/whyChooseUs/whyChooseUs.scss');
+@import url('./components/specialist/specialist.scss');
+@import url('./components/features/features.scss');
+@import url('./components/peyment/peyment.scss');
+@import url('./components/contact/contact.scss');
+@import url('./components/downloadApp/downloadApp.scss');
+@import url('./components/footer/footer.scss');
